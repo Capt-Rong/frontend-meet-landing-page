@@ -1,0 +1,28 @@
+/* tablet */
+@media (max-width: 768px){
+    .text-preset-1 {
+        font-size: 3rem;
+    }
+    .text-preset-2 {
+        font-size: 2rem;
+    }
+    .text-preset-3 {
+        font-size: 0.875rem;
+    }
+    .text-preset-4 {
+        font-size: 1rem;
+    }
+}
+
+/* mobile */
+@media (max-width: 375px){
+     .text-preset-1 {
+        font-size: 2.5rem;
+    }
+    .text-preset-2 {
+        font-size: 2rem;
+    }
+    .text-preset-3 {
+        font-size: 0.75rem;
+    }
+}

@@ -1,0 +1,226 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    font-family: "Red Hat Display",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* nav */
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    padding: 80px;
+    padding-bottom: 0px;
+}
+
+nav .icon {
+    width: 118px;
+    height: 28px;
+}
+
+
+/* hero */
+.hero {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.hero .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 0 4.375rem;
+}
+
+.text-content h2 {
+    color: var(--slate-900);
+}
+
+.text-content p {
+    color: var(--slate-600);
+}
+
+/* cta-button */
+.cta-buttons {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    display: flex;
+    padding: 1rem 2.5rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--cyan-600);
+}
+
+.btn-primary, 
+.btn-secondary{
+    color: var(--white);
+}
+
+.btn-primary span {
+    color: var(--cyan-300);
+    margin-inline-start: 0.25rem;
+}
+
+.btn-secondary {
+    background-color: var(--purple-600);
+}
+
+.btn-primary:hover {
+    background-color: var(--cyan-300);
+    color: var(--slate-900);
+}
+
+.btn-primary:hover span{
+    color: var(--cyan-600);
+}
+
+
+.btn-secondary:hover {
+    background-color: var(--purple-300);
+    color: var(--slate-900);
+}
+
+/* main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+    padding: 3.5rem 5rem 4rem 5rem;
+}
+
+/* feature grid */
+
+.feature-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 4rem;
+}
+
+.feature {
+    max-width: 256px;
+    max-height: 256px;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    transition: all ease-out 0.3s;
+}
+
+.feature:hover {
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+main .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: auto;
+    max-width: 544px;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-content header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 445px;
+}
+
+.text-content .text-preset-3 {
+    color: var(--cyan-600);
+    text-transform: uppercase;
+}
+
+.text-content .text-preset-2{
+    color: var(--slate-900);
+}
+
+.text-content .text-preset-4 {
+    color: var(--slate-600);
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: -1.75rem;
+    width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 7rem 5rem;
+  background-image: url(./assets/desktop/image-footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--white);
+}
+
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-cta .btn {
+  background-color: var(--purple-600);
+  color: var(--white);
+  max-width: 256px;
+}
+
+.footer-text h2 {
+    max-width: 355px;
+}
+
+.footer-text p {
+    max-width: 355px;
+}
+
+.footer-cta .btn span {
+    color: var(--purple-300);
+}
+
+.footer-cta .btn:hover {
+    background-color: var(--purple-300);
+}
+
+.footer-cta .btn:hover span {
+    color: var(--purple-600);
+}
